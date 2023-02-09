@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="stylesheet" href="style.css"/>
+  <!-- It is essential that the line below contains the keyword "defer". This ensures that the script is downloaded in parallel
+  to the page and executed after the page has finished parsing.-->
+  <script defer src="script.js"></script> 
+
+  <title>Portfolio</title>
+
+</head>
+
+<nav> 
+  <a id="about-tab" class="clicked" href="#profile-page">About Me</a>
+  <a id="projects-tab" href="#projects-page">Projects</a>
+</nav>
+
+<main>
+  <header id="profile-page">
+    <h2>Profile</h2>
+    <p1>I am a second year computer science student eagerly looking for relevant work experience opportunities.</p1>
+    <img src="logo.svg" class="App-logo" alt="logo" />
+    <p>
+      Edit <code> src/App.js </code> and save to reload.
+    </p>
+    <a
+      class="App-link"
+      href="https://reactjs.org"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Learn React
+    </a>
+  </header>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="projects-page">
+      <h1>Projects</h1>
+
+      <div class="proj-treats">
+        <img src="imgs/treats.png" />
+        <p>Built over the course of two and a half months and a team of five individuals, 
+          this project used a variety of technologies such as ...
+        </p>
+      </div>
+
+      <div class="proj-bytelocker">
+        <img src="imgs/treats.png" />
+        <p>Built over the course of two and a half months and a team of five individuals, 
+          this project used a variety of technologies such as ...
+        </p>
+      </div>
+
+    </div>
+      
+  </body>
+</main>
+
+</html>
