@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="style.css"/>
   <!-- It is essential that the line below contains the keyword "defer". This ensures that the script is downloaded in parallel
-  to the page and executed after the page has finished parsing.-->
+  to the page and executed after the page has finished parsing (i.e. after the HTML elements are available).-->
   <script defer src="script.js"></script> 
 
   <title>Portfolio</title>
@@ -22,7 +22,7 @@
 
 <main>
   <header id="profile-page">
-    <h2>Profile</h2>
+    <h1>Profile</h1>
     <p1>I am a second year computer science student eagerly looking for relevant work experience opportunities.</p1>
     <p1>You can view some of my work below!</p1>
     <br>
@@ -51,38 +51,46 @@
         <div class="proj-card">
           <img src="imgs/treats.png" class="proj-image">
           <div class="description-box">
-            <small>
+            <div class="proj-title">
               <b>
-                A Microsoft Teams like communication website built over the course of two and 
-                a half months with four other individuals. This project used a variety of 
-                technologies such as git, typescript, npm, and more.
+                Treats
               </b>
-            </small>
+            </div>
+            <div class="proj-description">
+              A Microsoft Teams like communication website built over the course of two and 
+              a half months with four other individuals. This project used a variety of 
+              technologies such as git, typescript, npm, and more.
+            </div>
           </div>
         </div>
 
         <div class="proj-card">
           <img src="imgs/bytelocker.png" class="proj-image">
           <div class="description-box">
-            <small>
+            <div class="proj-title">
               <b>
-                INSERT BYTELOCKER DESCRIPTION TEXT HERE
+                Bytelocker
               </b>
-            </small>
+            </div>
+            <div class="proj-description">
+              INSERT BYTELOCKER DESCRIPTION TEXT HERE
+            </div>
           </div>
         </div>
 
         <div class="proj-card">
           <img src="imgs/forum.png" class="proj-image">
           <div class="description-box">
-            <small>
+            <div class="proj-title">
               <b>
-                INSERT FORUM DESCRIPTION TEXT HERE
+                Forum
               </b>
-            </small>
+            </div>
+            <div class="proj-description">
+              INSERT FORUM DESCRIPTION TEXT HERE
+            </div>
           </div>
         </div>
-
 
 
       </div>
