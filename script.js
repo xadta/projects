@@ -11,3 +11,13 @@ const clickNavBar = (reqTabName, removeTabName) => {
 
 document.getElementById("projects-tab").onclick = () => clickNavBar("projects-tab", "about-tab");
 document.getElementById("about-tab").onclick = () => clickNavBar("about-tab", "projects-tab");
+
+// Ensuring that the correct tab is highlighted on reload
+// const forceScroll = () => {
+//     clickNavBar("about-tab", "projects-tab");
+// }
+// window.onbeforeunload() = () => {
+//     document.querySelector('html').style.scrollBehavior = '';
+//     window.scrollTo(0);
+//     clickNavBar("about-tab", "projects-tab");
+// }
