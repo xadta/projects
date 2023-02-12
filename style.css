@@ -111,6 +111,17 @@ nav a.clicked {
       sans-serif;
     font-size: calc(10px + 1vmin);
 }
+
+.hide {
+    opacity: 0;
+    transform: translateX(-75%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
   
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
